@@ -10,6 +10,7 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias myhints="cat ~/myhints.txt"
 alias open="cygstart" # cygwin specific
 
 # Set to this to use case-sensitive completion
