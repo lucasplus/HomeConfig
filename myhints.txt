@@ -1,11 +1,26 @@
 
-__________________________________________  Bash Commands
-
-ctr-R                            % search through history
+____________________________________________________ Remote In
 
 ssh lchavez@davinci              % copy and print davinci
 lpr <file> -P matisse
 scp <file> lchavez@davinci:
+
+____________________________________________________ App Engine
+
+php54 executable - /usr/local/opt/php54/bin
+mysql executable - /usr/local/opt/mysql/bin
+
+start local mysql
+mysql.server start
+mysql -u root
+mysql.server stop
+
+run local server (a mysql server need to be running)
+~/Sites/google_appengine/dev_appserver.py --php_executable_path=/usr/local/opt/php54/bin/php-cgi ~/Sites/Blog 
+
+command to update the site
+~/Sites/google_appengine/appcfg.py update ~/Sites/Blog
+
 
 _____________________________________________________ hg
 
@@ -27,19 +42,22 @@ dd or :d       	% delete current line
   [s and ]s	% move to next error
   z=		% correct error 
 
-____________________________________________________ App Engine
+folding
+  za - fold and unfold
+  zR - undo folding everywhere
+  zM - do folding everywhere
 
-php54 executable - /usr/local/opt/php54/bin
-mysql executable - /usr/local/opt/mysql/bin
+NERDTree - :NERDTree
 
-start local mysql
-mysql.server start
-mysql -u root
-mysql.server stop
+:e - reload
 
-run local server (a mysql server need to be running)
-~/Sites/google_appengine/dev_appserver.py --php_executable_path=/usr/local/opt/php54/bin/php-cgi ~/Sites/Blog 
+__________________________________________  Visual Studio
 
-command to update the site
-~/Sites/google_appengine/appcfg.py update ~/Sites/Blog
+Ctrl k, Ctrl k - make bookmark
+Ctrl k, Ctrl f - format selection
 
+__________________________________________  Bash Commands
+
+ctr-R                            % search through history
+
+find <directory> -name "<file regular expression (*.txt)>" -exec grep -Hi "<what>" {} \; > <output>.txt
