@@ -9,11 +9,15 @@ source $HOME/HomeConfig/Config/.zshrc
 
 # Plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git osx nyan zsh-syntax-highlighting)
+#plugins=(git osx nyan zsh-syntax-highlighting) - mac
+#plugins=(git nyan zsh-syntax-highlighting) - windows
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-homebrew=/usr/local/bin:/usr/local/sbin
-export PATH=$homebrew:$PATH
+# MAC - setup for homebrew
+#homebrew=/usr/local/bin:/usr/local/sbin
+#export PATH=$homebrew:$PATH
 
+# Win - Custom environmental variable to get to my windows home
+#MYHOME=/cygdrive/c/Users/Lucas
