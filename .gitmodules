@@ -1,0 +1,15 @@
+[submodule "Submodules/oh-my-zsh"]
+	path = Submodules/oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "Submodules/zsh-syntax-highlighting"]
+	path = Submodules/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "Submodules/indentLine"]
+	path = Submodules/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "Submodules/nerdtree"]
+	path = Submodules/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "Submodules/vim-colors-solarized"]
+	path = Submodules/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
