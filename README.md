@@ -17,25 +17,25 @@ Currently keeps track of three configuration files. Starting from the easiest to
 
 1. .minttyrc - Windows specific. Sets up my mintty terminal which is used by Cygwin.
 
-Copy or make a symbolic link from `'~/HomeConfig/Config/.minttyrc'` to `'~/.minttyrc'`.  
+  Copy or make a symbolic link from `'~/HomeConfig/Config/.minttyrc'` to `'~/.minttyrc'`.  
 
 2. .zshrc - Sets up terminal environment.
 
-Make a `'~/.zshrc'` who first sources the versioned `'.zshrc'` by
-`'source ${Home}/HomeConfig/Config/.zshrc'`. And then calls custom commands.
-Templates for `'~/.zshrc'` can be found in `'HomeConfig/Templates/'`. 
+  Make a `'~/.zshrc'` who first sources the versioned `'.zshrc'` by
+  `'source ${Home}/HomeConfig/Config/.zshrc'`. And then calls custom commands.
+  Templates for `'~/.zshrc'` can be found in `'HomeConfig/Templates/'`. 
 
 3. .vimrc - Sets up my vim environment.
   
-Just like with `'.zshrc'` except the source is done by `':source
-HomeConfig/Config/.vimrc'`. 
-
-Currently `'.vimrc'` assumes you are using vim-pathogen with the following plugins:
-
-* indentLine
-* nerdtree
-* vim-colors-solarized
-* vim-sensible
+  Just like with `'.zshrc'` except the source is done by `':source
+  HomeConfig/Config/.vimrc'`. 
+  
+  Currently `'.vimrc'` assumes you are using vim-pathogen with the following plugins:
+  
+  * indentLine
+  * nerdtree
+  * vim-colors-solarized
+  * vim-sensible
 
 ### My cheat sheets ###
 
