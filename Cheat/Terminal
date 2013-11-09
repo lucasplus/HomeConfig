@@ -1,0 +1,4 @@
+
+ctr-R                   search through command history
+
+find <directory> -name "<file regular expression (*.txt)>" -exec grep -Hi "<what>" {} \; > <output>.txt

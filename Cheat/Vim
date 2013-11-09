@@ -1,0 +1,17 @@
+
+dd or :d       	% delete current line
+
+:set tw=# 	% use to set text width (75)
+
+:set spell	% turn on
+  [s and ]s	% move to next error
+  z=		% correct error 
+
+folding
+  za - fold and unfold
+  zR - undo folding everywhere
+  zM - do folding everywhere
+
+NERDTree - :NERDTree
+
+:e - reload
