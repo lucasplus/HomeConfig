@@ -1,6 +1,6 @@
 # My Home Configuration #
 
-Like they say, "There's no where like home" Same goes for your computer :). This is my repository to make moving into a new home easier. Specifically, my terminal home.
+Like they say, "There's no place like home" Same goes for your computer :). This is my repository to make moving into a new home easier. Specifically, my terminal home.
 
 ## Goals ##
 
