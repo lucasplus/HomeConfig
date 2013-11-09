@@ -13,3 +13,15 @@
 [submodule "Submodules/vim-colors-solarized"]
 	path = Submodules/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "Submodules/VimPlugins/indentLine"]
+	path = Submodules/VimPlugins/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "Submodules/VimPlugins/vim-colors-solarized"]
+	path = Submodules/VimPlugins/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "Submodules/VimPlugins/nerdtree"]
+	path = Submodules/VimPlugins/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "Submodules/VimPlugins/vim-sensible"]
+	path = Submodules/VimPlugins/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
