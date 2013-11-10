@@ -6,15 +6,15 @@ ZSH=$HOME/HomeConfig/Submodules/oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Load wanted plugins
-# MAC - plugins=(git osx nyan zsh-syntax-highlighting) 
-# WIN - plugins=(git nyan zsh-syntax-highlighting) 
+# MAC - plugins=(git osx nyan) 
+# WIN - plugins=(git nyan) 
 
 source $ZSH/oh-my-zsh.sh
 
 # Bring in common zsh configurations
 source $HOME/HomeConfig/Config/.zshrc
 
-# Customize to your needs...
+# ___________________ customize to your needs
 
 # environmental variable to the trash
 #MAC - TRASH=~/.Trash
@@ -25,3 +25,10 @@ source $HOME/HomeConfig/Config/.zshrc
 
 # Win - Custom environmental variable to get to my windows home
 #MYHOME=/cygdrive/c/Users/Lucas
+
+# ___________________ zsh-syntax-highlighting
+# Note: Says it needs to be done last, 
+#  that is why it is in the template 
+
+source $HOME/HomeConfig/Submodules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
