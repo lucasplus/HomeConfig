@@ -20,6 +20,10 @@ Clone HomeConfig to you home folder. Copy templates from HomeConfig/Templates/
 to replace your .zshrc and .vimrc. Copy .minttyrc from HomeConfig/Config/ for
 cygwin.
 
+    git clone https://github.com/lucasplus/HomeConfig
+    git submodule init
+    git submodule update
+
 ### Configuration files ###
 
 Currently keeps track of three configuration files. Starting from the easiest to deal with:
