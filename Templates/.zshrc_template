@@ -2,17 +2,9 @@
 # Using my HomeConfig system. 
 #  See ~/HomeConfig/README.md for more info
 
-ZSH=$HOME/HomeConfig/Submodules/oh-my-zsh
-ZSH_THEME="robbyrussell"
-
-# doesn't work because oh-my-zsh is a submodule
-DISABLE_AUTO_UPDATE="true"
-
-# Load wanted plugins
+# Load wanted plugins - has to be done before
 # MAC - plugins=(git osx nyan) 
 # WIN - plugins=(git nyan) 
-
-source $ZSH/oh-my-zsh.sh
 
 # Bring in common zsh configurations
 source $HOME/HomeConfig/Config/.zshrc
@@ -28,10 +20,4 @@ source $HOME/HomeConfig/Config/.zshrc
 
 # Win - Custom environmental variable to get to my windows home
 #MYHOME=/cygdrive/c/Users/Lucas
-
-# ___________________ zsh-syntax-highlighting
-# Note: Says it needs to be done last, 
-#  that is why it is in the template 
-
-source $HOME/HomeConfig/Submodules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

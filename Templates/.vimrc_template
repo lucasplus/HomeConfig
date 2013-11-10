@@ -2,11 +2,10 @@
 " Using my HomeConfig system. 
 "  See ~/HomeConfig/README.md for more info
 
-source ~/HomeConfig/Submodules/VimPlugins/vim-pathogen/autoload/pathogen.vim
-
-execute pathogen#infect('~/HomeConfig/Submodules/VimPlugins/{}')
-
 source ~/HomeConfig/Config/.vimrc
 
 " Add this machine specific configurations below
+
+" NERDTree
+" WIN - let g:NERDTreeDirArrows=0 " Cygwin doesn't like fancy arrows
 

@@ -4,8 +4,8 @@
 "  vim-colors-solarized
 "  nerdtree
 "  indentLine
-execute pathogen#infect()
-
+source ~/HomeConfig/Submodules/VimPlugins/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect('~/HomeConfig/Submodules/VimPlugins/{}')
 
 "______________________ Plugin configs
 
@@ -17,7 +17,6 @@ set background=dark
 let g:indentLine_color_term = 240
 
 " NERDTree 
-" let g:NERDTreeDirArrows=0 " don't use fancy arrows
 " close NERDTree when closing last window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
