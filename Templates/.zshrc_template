@@ -5,6 +5,9 @@
 ZSH=$HOME/HomeConfig/Submodules/oh-my-zsh
 ZSH_THEME="robbyrussell"
 
+# doesn't work because oh-my-zsh is a submodule
+DISABLE_AUTO_UPDATE="true"
+
 # Load wanted plugins
 # MAC - plugins=(git osx nyan) 
 # WIN - plugins=(git nyan) 
