@@ -25,3 +25,6 @@
 [submodule "Submodules/VimPlugins/vim-sensible"]
 	path = Submodules/VimPlugins/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "Submodules/VimPlugins/vim-pathogen"]
+	path = Submodules/VimPlugins/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
