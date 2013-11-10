@@ -11,9 +11,6 @@ source $HOME/HomeConfig/Config/.zshrc
 
 # ___________________ customize to your needs
 
-# environmental variable to the trash
-#MAC - TRASH=~/.Trash
-
 # MAC - setup for homebrew
 #homebrew=/usr/local/bin:/usr/local/sbin
 #export PATH=$homebrew:$PATH
