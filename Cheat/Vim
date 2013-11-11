@@ -8,9 +8,9 @@ zM " do folding everywhere
 
 _______________________________________ spell
 
-:set spell	" turn on
-[s and ]s	  " move to next error
-z=		      " correct error 
+:set spell  " turn on
+[s and ]s   " move to next error
+z=          " correct error 
 
 _______________________________________ surround ()[]{}...
 
@@ -24,8 +24,8 @@ _______________________________________ comments
 
 _______________________________________ misc
 
-Ctrl + n      " toggle NERDTree
-:set tw=<#>   " text width	
-:e            " reload
-"*            " register connected to system clipboard
-
+Ctrl + n        " toggle NERDTree
+:set tw=<#>     " text width	
+:e              " reload
+"*              " register connected to system clipboard
+Ctrl + (j or k) " add line above or below

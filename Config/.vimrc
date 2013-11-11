@@ -51,4 +51,8 @@ set undodir=~/.vim/tmp/undo/
 set backupdir=~/.vim/tmp/backup/ 
 set directory=~/.vim/tmp/swp/
 
+" add and remove lines
+nmap <C-k> O<Esc>j
+nmap <C-j> o<Esc>k
+
 let mapleader=","
