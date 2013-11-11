@@ -28,3 +28,12 @@
 [submodule "Submodules/oh-my-zsh"]
 	path = Submodules/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "Submodules/VimPlugins/vim-surround"]
+	path = Submodules/VimPlugins/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "Submodules/VimPlugins/vim-repeat"]
+	path = Submodules/VimPlugins/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "Submodules/VimPlugins/vim-commentary"]
+	path = Submodules/VimPlugins/vim-commentary
+	url = https://github.com/tpope/vim-commentary

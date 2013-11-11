@@ -27,6 +27,8 @@ cygwin.
     git submodule init
     git submodule update
 
+Note: If I had to do it again I would probably just use git subtree to keep track of the other projects I pull in. 
+
 ### Configuration files ###
 
 Currently keeps track of three configuration files. Starting from the easiest to deal with:
@@ -55,6 +57,9 @@ Currently keeps track of three configuration files. Starting from the easiest to
   * [nerdtree](https://github.com/scrooloose/nerdtree)
   * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
   * [vim-sensible](https://github.com/tpope/vim-sensible)
+  * [vim-surround](https://github.com/tpope/vim-surround)
+  * [vim-repeat](https://github.com/tpope/vim-repeat)
+  * [vim-commentary](https://github.com/tpope/commentary)
 
 ### My cheat sheets ###
 

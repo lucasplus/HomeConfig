@@ -12,6 +12,16 @@ _______________________________________ spell
 [s and ]s	  " move to next error
 z=		      " correct error 
 
+_______________________________________ surround ()[]{}...
+
+(in Visual) S<surround_with>  " surround in visual
+cs<from><to>                  " change surroundings 
+
+_______________________________________ comments
+
+(in Visual) gc  " comments section
+(in Visual) gcu " uncomments section
+
 _______________________________________ misc
 
 Ctrl + n      " toggle NERDTree
