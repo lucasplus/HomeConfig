@@ -1,9 +1,6 @@
 
 " Use vim-pathogen to include plugins:
-"  vim-sensible
-"  vim-colors-solarized
-"  nerdtree
-"  indentLine
+"  see ~/HomeConfig/Submodules/VimPlugins/
 source ~/HomeConfig/Submodules/VimPlugins/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect('~/HomeConfig/Submodules/VimPlugins/{}')
 
@@ -24,9 +21,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 "______________________ Common configs
 
-"set encoding=utf-8 " Not sure if I need this
-"syntax enable
-"filetype plugin indent on 
 "set hlsearch " highlight all search hits
 set number " show line numbers
 set mouse=a " enable mouse in all modes: Normal, Insert, Visual, and Command-line
