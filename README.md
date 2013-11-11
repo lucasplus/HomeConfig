@@ -4,6 +4,9 @@ Like they say, "There's no place like home" Same goes for your computer :).
 This is my repository to make moving into a new home easier. Specifically, my
 terminal home.
 
+If you have ideas of how to improve on this little project please free to make
+a fork, make your changes, and then perhaps we'll merge :).
+
 ## Goals ##
 
 There are two main goals of this repo:
