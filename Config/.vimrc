@@ -19,14 +19,15 @@ let g:indentLine_color_term = 240
 " NERDTree 
 " close NERDTree when closing last window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
+" open NERDTree with Ctrl+n
+map <C-n> :NERDTreeToggle<CR>
 
 "______________________ Common configs
 
-set encoding=utf-8 " Not sure if I need this
-syntax enable
-filetype plugin indent on 
-set hlsearch " highlight all search hits
+"set encoding=utf-8 " Not sure if I need this
+"syntax enable
+"filetype plugin indent on 
+"set hlsearch " highlight all search hits
 set number " show line numbers
 set mouse=a " enable mouse in all modes: Normal, Insert, Visual, and Command-line
 set ttymouse=xterm2 " not sure exactly
@@ -44,10 +45,16 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=1
 
-set backup      " enable backups
-set noswapfile  " it's 2013 vim
+" from vim help, delete old backup, backup current file
+set backup      
+set writebackup
 
-set undodir=~/.vim/tmp/undo/     " undo files
-set backupdir=~/.vim/tmp/backup/ " backups
+" Make backup, undo, and swp directory if not exist
+silent !mkdir ~/.vim/tmp/undo/ > /dev/null 2>&1
+silent !mkdir ~/.vim/tmp/backup/ > /dev/null 2>&1
+silent !mkdir ~/.vim/tmp/swp/ > /dev/null 2>&1
+set undodir=~/.vim/tmp/undo/     
+set backupdir=~/.vim/tmp/backup/ 
+set directory=~/.vim/tmp/swp/
 
 let mapleader=","
