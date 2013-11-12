@@ -1,6 +1,9 @@
 
+Usage:
+  cheat-<cheat_sheet>       " show me
+  cheat-<cheat_sheet>-add   " edit cheat sheet
+
 Available cheat sheets:
-( prepend with "cheat-" )
   Vim
   Terminal
   VisualStudio
