@@ -69,3 +69,9 @@ to and can now update no matter where I am. Woot!
 Type `'cheat-help'` in the terminal no matter where you are and your questions
 will be answered soon :).
 
+### Useful links ###
+
+Just a collection of the most useful links I have found for setting up home.
+
+Setting up git to use winmerge on cygwin [link](http://rubenlaguna.com/wp/2010/08/05/visual-difftool-cygwin-git/)
+
