@@ -3,8 +3,10 @@
 #  See ~/HomeConfig/README.md for more info
 
 # Load wanted plugins - has to be done before
-# MAC - plugins=(git osx nyan) 
-# WIN - plugins=(git nyan) 
+# MAC 
+#plugins=(git osx nyan) 
+# WIN 
+#plugins=(git nyan) 
 
 # Bring in common zsh configurations
 source $HOME/HomeConfig/Config/.zshrc
@@ -17,4 +19,7 @@ source $HOME/HomeConfig/Config/.zshrc
 
 # Win - Custom environmental variable to get to my windows home
 #MYHOME=/cygdrive/c/Users/Lucas
+#PROGRAMFILES="/cygdrive/c/Program Files (x86)"
 
+# Win - my familiar open command 
+#alias open='cygstart'

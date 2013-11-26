@@ -47,12 +47,18 @@ set backup
 set writebackup
 
 " Make backup, undo, and swp directory if not exist
+silent !mkdir ~/.vim/ > /dev/null 2>&1
+silent !mkdir ~/.vim/viminfo/ > /dev/null 2>&1
+silent !mkdir ~/.vim/tmp/ > /dev/null 2>&1
 silent !mkdir ~/.vim/tmp/undo/ > /dev/null 2>&1
 silent !mkdir ~/.vim/tmp/backup/ > /dev/null 2>&1
 silent !mkdir ~/.vim/tmp/swp/ > /dev/null 2>&1
 set undodir=~/.vim/tmp/undo/     
 set backupdir=~/.vim/tmp/backup/ 
 set directory=~/.vim/tmp/swp/
+
+" put .viminfo files in the .vim/viminfo directory 
+set viminfo+=n~/.vim/viminfo
 
 " add and remove lines
 nmap <C-k> O<Esc>j

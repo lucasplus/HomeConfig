@@ -27,7 +27,7 @@ cygwin.
     git submodule init
     git submodule update
 
-Note: If I had to do it again I would probably just use git subtree to keep track of the other projects I pull in. 
+[Notes on Windows specific set-up.](CygwinSetup.md) 
 
 ### Configuration files ###
 
@@ -73,8 +73,5 @@ will be answered soon :).
 
 Just a collection of the most useful links I have found for setting up home.
 
-Setting up git to use winmerge on cygwin [link](http://rubenlaguna.com/wp/2010/08/05/visual-difftool-cygwin-git/)
-
-Being able to use gitk on cygwin. [link](http://stackoverflow.com/questions/9393462/cannot-launch-git-gui-using-cygwin-on-windows) [link](http://www.trueblade.com/knowledge/automatically-starting-a-cygwin-x-server)
-
-Code completion in vim. (Haven't tried yet) [link](http://valloric.github.io/YouCompleteMe/)
+  
+  Code completion in vim. (Haven't tried yet) [link](http://valloric.github.io/YouCompleteMe/)
