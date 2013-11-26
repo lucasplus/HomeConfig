@@ -21,6 +21,7 @@ are supported.
   * openssh
   * git, git-completion, git-gui, gitk
   * ncurses
+  * nc
 
     Packages needed to compile git from source
     * gcc-core, gcc-g++
@@ -48,6 +49,10 @@ are supported.
   right now). Uncomment out desired platform specific behavior in your new
   .vimrc and .zshrc. Congrats! You now have most all of your configuration settings. 
 
+  Make z shell your default.
+
+    sed -i "s/$USER\:\/bin\/bash/$USER\:\/bin\/zsh/g" /etc/passwd
+
 3. To get that quake feel. 
 
   First, download and install AutoHotKey.
@@ -61,7 +66,9 @@ are supported.
 ## Additional upgrades ##
 
 Some notes on how to do a few other odds and ends.
-    
+
+  * Compile git from source. [link](http://randomartifacts.blogspot.com/2013/04/compiling-git-on-cygwin.html)
+
   * Setting up git to use winmerge on cygwin [link](http://rubenlaguna.com/wp/2010/08/05/visual-difftool-cygwin-git/)
   
   * Being able to use gitk on cygwin. [link](http://stackoverflow.com/questions/9393462/cannot-launch-git-gui-using-cygwin-on-windows) [link](http://www.trueblade.com/knowledge/automatically-starting-a-cygwin-x-server)
