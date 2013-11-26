@@ -1,0 +1,21 @@
+[user]
+	name = Lucas Chavez
+	email = lchavezmeche@gmail.com
+[credential]
+	helper = !'/cygdrive/c/Users/Lucas/AppData/Roaming/GitCredStore/git-credential-winstore.exe'
+[core]
+	autocrlf = input
+	editor = vim
+[push]
+	default = simple
+[merge]
+	tool = winmerge
+[diff]
+	tool = winmerge
+[difftool "winmerge"]
+	cmd = winmerge-diff.sh \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[mergetool "winmerge"]
+	cmd = winmerge-merge.sh \"$LOCAL\" \"$REMOTE\"
+	trustExitCode = false
