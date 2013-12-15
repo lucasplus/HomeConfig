@@ -73,5 +73,10 @@ will be answered soon :).
 
 Just a collection of the most useful links I have found for setting up home.
 
-  
   Code completion in vim. (Haven't tried yet) [link](http://valloric.github.io/YouCompleteMe/)
+
+  Drawit.vim
+  
+  Grep.vim
+
+  SelectBuff.vim
