@@ -29,3 +29,10 @@ Ctrl + n        " toggle NERDTree
 :e              " reload
 "*              " register connected to system clipboard
 Ctrl + (j or k) " add line above or below
+
+_______________________________________ freq forget
+
+%s/old/new/g  - replace all old with new throughout file
+%s/old/new/gc  - same but with confirmations
+
+

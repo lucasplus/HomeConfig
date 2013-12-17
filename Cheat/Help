@@ -1,12 +1,12 @@
 
 Usage:
-  cheat-<cheat_sheet>       " show me
-  cheat-<cheat_sheet>-add   " edit cheat sheet
+  cheat-<cheat_sheet>       " show me in vim
+  cheat-<cheat_sheet>-cat   " cat the contents to screen
 
 Available cheat sheets:
-  Vim
-  Terminal
-  VisualStudio
-  AppEngine
+  vim
+  terminal
+  visualstudio
+  appengine
 
 
