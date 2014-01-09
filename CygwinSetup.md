@@ -22,6 +22,7 @@ are supported.
   * git, git-completion, git-gui, gitk
   * ncurses
   * nc
+  * tree
 
     Packages needed to compile git from source
     * gcc-core, gcc-g++

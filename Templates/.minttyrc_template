@@ -26,7 +26,7 @@ BoldCyan=147,161,161
 White=238,232,213
 BoldWhite=253,246,227
 
-Transparency=14
+Transparency=20
 Font=Andale Mono
 FontHeight=9
 Term=xterm-256color
