@@ -29,7 +29,7 @@ Ctrl + n        " toggle NERDTree
 :e              " reload
 "*              " register connected to system clipboard
 Ctrl + (j or k) " add line above or below
-
+Ctrl + b        " open list of buffers
 _______________________________________ freq forget
 
 %s/old/new/g  - replace all old with new throughout file

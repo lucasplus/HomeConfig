@@ -64,4 +64,7 @@ set viminfo+=n~/.vim/viminfo
 nmap <C-k> O<Esc>j
 nmap <C-j> o<Esc>k
 
+" a numbered list is printed, then press number and get buffer
+:nnoremap <C-b> :buffers<CR>:buffer<Space>
+
 let mapleader=","
