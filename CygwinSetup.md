@@ -23,6 +23,8 @@ are supported.
   * ncurses
   * nc
   * tree
+  * python (I am not sure which exactly)
+  * svn-git (this installed svn as well)
 
     Packages needed to compile git from source
     * gcc-core, gcc-g++

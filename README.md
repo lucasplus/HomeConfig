@@ -27,7 +27,7 @@ cygwin.
     git submodule init
     git submodule update
 
-[Notes on Windows specific set-up.](CygwinSetup.md) 
+[Notes on Windows specific set-up.](https://bitbucket.org/lucasplus/homeconfig/CygwinSetup.md) 
 
 ### Configuration files ###
 

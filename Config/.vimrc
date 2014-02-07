@@ -24,7 +24,7 @@ map <C-n> :NERDTreeToggle<CR>
 " modelines are vim commands like set that are in the file you are reading
 set nomodeline
 
-"set hlsearch " highlight all search hits
+set hlsearch " highlight all search hits
 set number " show line numbers
 set mouse=a " enable mouse in all modes: Normal, Insert, Visual, and Command-line
 set ttymouse=xterm2 " not sure exactly
