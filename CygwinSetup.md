@@ -37,6 +37,11 @@ are supported.
     * autoconf
     * zlib-devel
 
+    Packages needed to compile ag
+    * automake pkg-config libpcre-devel liblzma-dev
+    * then: git clone https://github.com/ggreer/the_silver_searcher.git
+      cd the_silver_searcher && ./build.sh && make install
+
 2. Start your new cygwin terminal. 
 
   Starting cygwin the first time puts the following in your home directory. 
