@@ -1,6 +1,6 @@
 
 ZSH=$HOME/HomeConfig/Submodules/oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="myrobbyrussell"
 
 # do not update because oh-my-zsh is a submodule
 DISABLE_AUTO_UPDATE="true"

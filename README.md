@@ -27,6 +27,12 @@ cygwin.
     git submodule init
     git submodule update
 
+Then copy the following folder from templates:
+
+  * Copy HomeConfig/Templates/.vimrc_template to ~/.vimrc
+  * Copy HomeConfig/Templates/.zshrc_template to ~/.zshrc
+  * Copy HomeConfig/Templates/myrobbyrussel.zsh-theme to Submodules/oh-my-zsh/custom/
+
 [Notes on Windows specific set-up.](https://bitbucket.org/lucasplus/homeconfig/CygwinSetup.md) 
 
 ### Configuration files ###
@@ -60,14 +66,6 @@ Currently keeps track of three configuration files. Starting from the easiest to
   * [vim-surround](https://github.com/tpope/vim-surround)
   * [vim-repeat](https://github.com/tpope/vim-repeat)
   * [vim-commentary](https://github.com/tpope/commentary)
-
-### My cheat sheets ###
-
-Dirt simple collection of cheat sheets in text file form that I constantly add
-to and can now update no matter where I am. Woot!
-
-Type `'cheat-help'` in the terminal no matter where you are and your questions
-will be answered soon :).
 
 ### Useful links ###
 
