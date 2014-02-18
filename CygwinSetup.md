@@ -15,6 +15,7 @@ from the top of the screen using a shortcut key.
     are supported. 
 
     Install asks for you to select packages. Choosing your packages will allow you to customize capabilities of your cygwin for your intended purpose. I choose the following:
+
     * zsh
     * vim, vim-common
     * curl
@@ -27,6 +28,7 @@ from the top of the screen using a shortcut key.
     * svn-git (this installed svn as well)
 
     Packages needed to compile git from source. [How to](http://randomartifacts.blogspot.com/2013/04/compiling-git-on-cygwin.html)
+
     * gcc-core, gcc-g++
     * libcurl-devel
     * make
@@ -38,13 +40,16 @@ from the top of the screen using a shortcut key.
     * zlib-devel
 
     Packages needed to compile ag
+
     * automake pkg-config libpcre-devel liblzma-dev
-    * then: git clone https://github.com/ggreer/the_silver_searcher.git
-      cd the_silver_searcher && ./build.sh && make install
+
+        git clone https://github.com/ggreer/the_silver_searcher.git
+        cd the_silver_searcher && ./build.sh && make install
 
 2.  Start your new cygwin terminal. 
 
     Starting cygwin the first time puts the following in your home directory. 
+
     * bashrc
     * bash_profile
     * inputrc
@@ -76,9 +81,7 @@ from the top of the screen using a shortcut key.
 Some notes on how to do a few other odds and ends.
 
   * Compile git from source. [link](http://randomartifacts.blogspot.com/2013/04/compiling-git-on-cygwin.html)
-
   * Setting up git to use winmerge on cygwin [link](http://rubenlaguna.com/wp/2010/08/05/visual-difftool-cygwin-git/)
-  
   * Being able to use gitk on cygwin. [link](http://stackoverflow.com/questions/9393462/cannot-launch-git-gui-using-cygwin-on-windows) [link](http://www.trueblade.com/knowledge/automatically-starting-a-cygwin-x-server)
 
 
