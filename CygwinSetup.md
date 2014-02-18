@@ -26,21 +26,21 @@ are supported.
   * python (I am not sure which exactly)
   * svn-git (this installed svn as well)
 
-    Packages needed to compile git from source
-    * gcc-core, gcc-g++
-    * libcurl-devel
-    * make
-    * libiconv
-    * python
-    * perl
-    * gettext, gettext-devel
-    * autoconf
-    * zlib-devel
+  Packages needed to compile git from source. [How to](http://randomartifacts.blogspot.com/2013/04/compiling-git-on-cygwin.html)
+  * gcc-core, gcc-g++
+  * libcurl-devel
+  * make
+  * libiconv
+  * python
+  * perl
+  * gettext, gettext-devel
+  * autoconf
+  * zlib-devel
 
-    Packages needed to compile ag
-    * automake pkg-config libpcre-devel liblzma-dev
-    * then: git clone https://github.com/ggreer/the_silver_searcher.git
-      cd the_silver_searcher && ./build.sh && make install
+  Packages needed to compile ag
+  * automake pkg-config libpcre-devel liblzma-dev
+  * then: git clone https://github.com/ggreer/the_silver_searcher.git
+    cd the_silver_searcher && ./build.sh && make install
 
 2. Start your new cygwin terminal. 
 

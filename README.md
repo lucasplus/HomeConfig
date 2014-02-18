@@ -33,7 +33,7 @@ Then copy the following folder from templates:
   * Copy HomeConfig/Templates/.zshrc_template to ~/.zshrc
   * Copy HomeConfig/Templates/myrobbyrussel.zsh-theme to Submodules/oh-my-zsh/custom/
 
-[Notes on Windows specific set-up.](https://bitbucket.org/lucasplus/homeconfig/CygwinSetup.md) 
+[Notes on Windows specific set-up.](https://bitbucket.org/lucasplus/homeconfig/src/CygwinSetup.md) 
 
 ### Configuration files ###
 
