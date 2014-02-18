@@ -43,8 +43,8 @@ from the top of the screen using a shortcut key.
 
     * automake pkg-config libpcre-devel liblzma-dev
 
-        git clone https://github.com/ggreer/the_silver_searcher.git
-        cd the_silver_searcher && ./build.sh && make install
+          git clone https://github.com/ggreer/the_silver_searcher.git
+          cd the_silver_searcher && ./build.sh && make install
 
 2.  Start your new cygwin terminal. 
 
