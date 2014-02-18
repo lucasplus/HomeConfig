@@ -51,6 +51,24 @@ function! MakePattern(text)
 endfunction
 vnoremap <silent> <F3> "zy:<C-U>let @/="<C-R>=MakePattern(@z)<CR>"<CR>:set hls<CR>
 
+" help files for extensions
+helptags ~/HomeConfig/Submodules/VimPlugins/Ag/doc/
+helptags ~/HomeConfig/Submodules/VimPlugins/vim-airline/doc/
+helptags ~/HomeConfig/Submodules/VimPlugins/vim-bufferline/doc/
+helptags ~/HomeConfig/Submodules/VimPlugins/vim-easymotion/doc/
+helptags ~/HomeConfig/Submodules/VimPlugins/CtrlP/doc/
+
+" easymotion plugin
+" make jumps between lines keep column number
+" let g:EasyMotion_startofline = 0
+
+" vim-airline, don't show error related to white spaces
+let g:airline#extensions#whitespace#enabled = 0
+
+" change mapping for CtrlP plugin
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 set number " show line numbers
 set mouse=a " enable mouse in all modes: Normal, Insert, Visual, and Command-line
 set ttymouse=xterm2 " not sure exactly

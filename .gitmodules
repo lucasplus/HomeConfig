@@ -37,3 +37,18 @@
 [submodule "Submodules/VimPlugins/vim-commentary"]
 	path = Submodules/VimPlugins/vim-commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "Submodules/VimPlugins/Ag"]
+	path = Submodules/VimPlugins/Ag
+	url = https://github.com/rking/ag.vim.git
+[submodule "Submodules/VimPlugins/vim-airline"]
+	path = Submodules/VimPlugins/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "Submodules/VimPlugins/vim-bufferline"]
+	path = Submodules/VimPlugins/vim-bufferline
+	url = https://github.com/bling/vim-bufferline.git
+[submodule "Submodules/VimPlugins/CtrlP"]
+	path = Submodules/VimPlugins/CtrlP
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "Submodules/VimPlugins/vim-easymotion"]
+	path = Submodules/VimPlugins/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git

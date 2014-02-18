@@ -41,22 +41,22 @@ Currently keeps track of three configuration files. Starting from the easiest to
 
 1. .minttyrc - Windows specific. Sets up my mintty terminal which is used by Cygwin.
 
-  Copy or make a symbolic link from `'~/HomeConfig/Config/.minttyrc'` to `'~/.minttyrc'`.  
+    Copy or make a symbolic link from ~/HomeConfig/Config/.minttyrc to ~/.minttyrc.  
 
 2. .zshrc - Sets up terminal environment.
 
-  Make a `'~/.zshrc'` who sources the versioned `'.zshrc'` by
-  `'source ${Home}/HomeConfig/Config/.zshrc'`. And calls custom commands.
-  A templates for `'~/.zshrc'` can be found in `'HomeConfig/Templates/'`. 
+    Make a ~/.zshrc who sources the versioned .zshrc by
+    "source ${Home}/HomeConfig/Config/.zshrc." And calls custom commands.
+    A templates for ~/.zshrc can be found in HomeConfig/Templates/. 
 
   Uses the [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) projects.
 
 3. .vimrc - Sets up my vim environment.
   
-  Just like with `'.zshrc'` except the source is done by `':source
-  HomeConfig/Config/.vimrc'`. 
+  Just like with .zshrc except the source is done by ":source
+  HomeConfig/Config/.vimrc". 
   
-  `'HomeConfig/Config/.vimrc'` brings in the following github projects:
+  "HomeConfig/Config/.vimrc" brings in the following github projects:
 
   * [vim-pathogen](https://github.com/tpope/vim-pathogen)
   * [indentLine](https://github.com/Yggdroot/indentLine)
