@@ -8,11 +8,11 @@ from the top of the screen using a shortcut key.
 
 ## Basic Steps ##
 
-1. Install [cygwin.](www.cygwin.com). This is well known program used to
-emulate a linux terminal on a windows machine. Can be used just for simple text
-editing and file management, all the way up to creating a true linux
-development environment. Note: I would pick the 32 bit because more libraries
-are supported. 
+1.Install [cygwin.](www.cygwin.com). This is well known program used to
+  emulate a linux terminal on a windows machine. Can be used just for simple text
+  editing and file management, all the way up to creating a true linux
+  development environment. Note: I would pick the 32 bit because more libraries
+  are supported. 
 
   Install asks for you to select packages. Choosing your packages will allow you to customize capabilities of your cygwin for your intended purpose. I choose the following:
   * zsh
