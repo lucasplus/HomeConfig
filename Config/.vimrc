@@ -33,6 +33,9 @@ map <C-n> :NERDTreeToggle<CR>
 " modelines are vim commands like set that are in the file you are reading
 set nomodeline
 
+" switching between buffers that had changes was showing an annoying message
+set hidden
+
 set hlsearch " highlight all search hits
 " temporarily get out of highlighted search by hitting enter
 nnoremap <CR> :nohlsearch<CR><CR>
@@ -61,13 +64,19 @@ helptags ~/HomeConfig/Submodules/VimPlugins/CtrlP/doc/
 " easymotion plugin
 " make jumps between lines keep column number
 " let g:EasyMotion_startofline = 0
+let g:ctrlp_open_multiple_files = 'i'
+" let g:ctrlp_open_new_file = 'r'
 
-" vim-airline, don't show error related to white spaces
+" vim-airline
+" don't show error related to white spaces
+" show relative path on right side. replaces file type
 let g:airline#extensions#whitespace#enabled = 0
+let g:airline_section_x = '%f'
 
 " change mapping for CtrlP plugin
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_match_window = 'max:15'
 
 set number " show line numbers
 set mouse=a " enable mouse in all modes: Normal, Insert, Visual, and Command-line
@@ -111,4 +120,12 @@ nmap <C-j> o<Esc>k
 " a numbered list is printed, then press number and get buffer
 nnoremap <C-b> :buffers<CR>:buffer<Space>
 
+" semicolon for all command mode commands now
+nnoremap ; :
+
+" my leader key
 let mapleader=","
+
+" so that easymotion only works by pressing leader key one instead of twice
+" needed to be at the end
+map <Leader> <Plug>(easymotion-prefix)
