@@ -10,6 +10,11 @@
 
 " Use vim-pathogen to include plugins:
 "  see ~/HomeConfig/Submodules/VimPlugins/
+
+" Disable plugins
+"let g:pathogen_disabled = []
+"call add(g:pathogen_disabled, 'vim-bufferline')
+
 source ~/HomeConfig/Submodules/VimPlugins/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect('~/HomeConfig/Submodules/VimPlugins/{}')
 Helptags
@@ -66,6 +71,9 @@ let g:ctrlp_open_multiple_files = 'i'
 " show relative path on right side. replaces file type
 let g:airline#extensions#whitespace#enabled = 0
 let g:airline_section_x = '%f'
+
+" vim bufferline config
+let g:bufferline_echo = 0
 
 " change mapping for CtrlP plugin
 let g:ctrlp_map = '<c-p>'
