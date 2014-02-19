@@ -12,6 +12,7 @@
 "  see ~/HomeConfig/Submodules/VimPlugins/
 source ~/HomeConfig/Submodules/VimPlugins/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect('~/HomeConfig/Submodules/VimPlugins/{}')
+Helptags
 
 "______________________ Plugin configs
 
@@ -53,13 +54,6 @@ function! MakePattern(text)
   return '\\V' . escape(pat, '\"')
 endfunction
 vnoremap <silent> <F3> "zy:<C-U>let @/="<C-R>=MakePattern(@z)<CR>"<CR>:set hls<CR>
-
-" help files for extensions
-helptags ~/HomeConfig/Submodules/VimPlugins/Ag/doc/
-helptags ~/HomeConfig/Submodules/VimPlugins/vim-airline/doc/
-helptags ~/HomeConfig/Submodules/VimPlugins/vim-bufferline/doc/
-helptags ~/HomeConfig/Submodules/VimPlugins/vim-easymotion/doc/
-helptags ~/HomeConfig/Submodules/VimPlugins/CtrlP/doc/
 
 " easymotion plugin
 " make jumps between lines keep column number
