@@ -64,7 +64,7 @@ vnoremap <silent> <F3> "zy:<C-U>let @/="<C-R>=MakePattern(@z)<CR>"<CR>:set hls<C
 " make jumps between lines keep column number
 " let g:EasyMotion_startofline = 0
 let g:ctrlp_open_multiple_files = 'i'
-" let g:ctrlp_open_new_file = 'r'
+let g:ctrlp_open_new_file = 'r'
 
 " vim-airline
 " don't show error related to white spaces
@@ -79,6 +79,10 @@ let g:bufferline_echo = 0
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_match_window = 'max:15'
+
+" vim-snippets config, use my own folder for snippets
+let g:snipMate = {}
+let g:snipMate['snippet_dirs'] = funcref#Function('return [expand("~/HomeConfig")]')
 
 set number " show line numbers
 set mouse=a " enable mouse in all modes: Normal, Insert, Visual, and Command-line

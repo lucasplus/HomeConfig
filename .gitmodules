@@ -52,3 +52,12 @@
 [submodule "Submodules/VimPlugins/vim-easymotion"]
 	path = Submodules/VimPlugins/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "Submodules/VimPlugins/tlib"]
+	path = Submodules/VimPlugins/tlib
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "Submodules/VimPlugins/mw-utils"]
+	path = Submodules/VimPlugins/mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "Submodules/VimPlugins/snipmate"]
+	path = Submodules/VimPlugins/snipmate
+	url = https://github.com/garbas/vim-snipmate.git
