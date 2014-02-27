@@ -11,3 +11,6 @@ source $ZSH/oh-my-zsh.sh
 alias path='echo -e ${PATH//:/\\n}'
 
 source $HOME/HomeConfig/Submodules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# stop annoying warning about backward slash
+CYGWIN="${CYGWIN} nodosfilewarning"; export CYGWIN
