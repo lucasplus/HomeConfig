@@ -78,3 +78,7 @@ Just a collection of the most useful links I have found for setting up home.
   Grep.vim
 
   SelectBuff.vim
+
+## Todo ##
+
+Let vim put buffer list in command line again and remove from the powerline.

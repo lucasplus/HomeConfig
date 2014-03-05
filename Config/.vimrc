@@ -70,10 +70,7 @@ let g:ctrlp_open_new_file = 'r'
 " don't show error related to white spaces
 " show relative path on right side. replaces file type
 let g:airline#extensions#whitespace#enabled = 0
-let g:airline_section_x = '%f'
-
-" vim bufferline config
-let g:bufferline_echo = 0
+let g:airline#extensions#bufferline#enabled = 0
 
 " change mapping for CtrlP plugin
 let g:ctrlp_map = '<c-p>'
